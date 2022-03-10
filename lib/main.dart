@@ -192,44 +192,6 @@ class SampleLandscapeView extends StatelessWidget {
             )
           ],
         ),
-        // Padding(
-        //   padding: const EdgeInsets.all(16.0),
-        //   child: Container(
-        //     color: Colors.yellow,
-        //     height: finalHeight * 0.25,
-        //   ),
-        // ),
-        // Expanded(
-        //   child: Container(
-        //     padding: const EdgeInsets.only(left: 16, right: 16),
-        //     height: finalHeight * 0.7,
-        //     child: Column(
-        //       children: [
-        //         for (int i = 0; i < 3; i++)
-        //           Container(
-        //             padding: const EdgeInsets.only(bottom: 16.0),
-        //             child: Row(
-        //               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        //               children: [
-        //                 Container(
-        //                   //margin: const EdgeInsets.only(right: 8),
-        //                   color: Colors.red,
-        //                   width: (screenWidth - (38 + 16)) * 0.5,
-        //                   height: finalHeight * 0.09,
-        //                 ),
-        //                 Container(
-        //                   //margin: const EdgeInsets.only(left: 8),
-        //                   color: Colors.red,
-        //                   width: (screenWidth - (38 + 16)) * 0.5,
-        //                   height: finalHeight * 0.09,
-        //                 ),
-        //               ],
-        //             ),
-        //           ),
-        //       ],
-        //     ),
-        //   ),
-        // )
       ],
     );
   }
